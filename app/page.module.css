@@ -1,0 +1,235 @@
+.retro_button {
+    font-family: var(--font-lexend);
+}
+
+.anihero {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: var(--font-lexend);
+
+    /* font-family: var(--font-abril-fatface); */
+
+}
+
+.anihero {
+    animation: showup 10s;
+
+}
+
+.anihero2 {
+    width: 0px;
+    animation: reveal 3.5s;
+}
+
+.anihero2 div {
+    font-family: var(--font-lexend);
+
+    /* font-family: var(--font-abril-fatface); */
+    width: 100vw;
+    animation: slidein 5s;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -620px;
+        opacity: 0;
+    }
+
+    35% {
+        margin-left: -50px;
+        opacity: 0;
+    }
+
+    80% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    30% {
+        opacity: 0;
+        /* width: 200px; */
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        /* width: 200px; */
+    }
+}
+
+
+
+
+
+.carousel {
+    margin: 65px auto 0 auto;
+    padding-bottom: 5px;
+    max-width: 1500px;
+    overflow: hidden;
+    display: flex;
+
+    &:hover .group {
+        animation-play-state: paused;
+    }
+}
+
+.group {
+    display: flex;
+    flex: 0 0 100%;
+    gap: 30px;
+    /* Add padding to the right to create a gap between the last and first card. */
+    padding-right: 30px;
+    will-change: transform;
+    /* We should be nice to the browser - let it know what we're going to animate. */
+    animation: scrolling 15s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.card {
+    display: flex;
+    width: 350px;
+    color: white;
+    border-radius: 24px;
+    border: solid 2px #020202;
+    box-shadow: rgba(2, 2, 2, 100%) 5px 5px 0px 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+
+    &:nth-child(1) {
+        /* background: #5d34f2; */
+
+        background-image: url(./public/ganja_app.png);
+        background-size: cover;
+    }
+
+    &:nth-child(2) {
+        background: #7958ff;
+       
+    }
+
+    &:nth-child(3) {
+        /* background: #4300da; */
+        background-image: url(./public/ads.png);
+        background-size: cover;
+    }
+
+    &:nth-child(5) {
+        background: rgba(104, 104, 104, 0.3);
+        /* opacity: 15%; */
+        /* #B978EA */
+        /* #00AF9B; */
+     
+    }
+
+    &:nth-child(4) {
+        background-image: url(./public/group_85.png);
+        background-size: cover;
+     
+    }
+}
+
+
+/* .flashing_text {
+    animation: rainbow-flash-left-to-right 5s infinite;
+  } */
+
+
+
+/* @keyframes rainbow-flash-left-to-right {
+    0% {
+      color: violet;
+      transform: translateX(0);
+    }
+    10% {
+      color: indigo;
+      transform: translateX(10px);
+    }
+    20% {
+      color: blue;
+      transform: translateX(20px);
+    }
+    100% {
+      color: violet;
+      transform: translateX(0);
+    }
+  } */
+  
+  .input {
+    border-radius: 2px;
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .status {
+    animation: fade-in-out 3s ease-in-out;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+  
