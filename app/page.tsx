@@ -3,9 +3,7 @@ import styles from "./page.module.css"
 import RetroButton from "./componants/RetroButton";
 import alua from "./public/alua.png"
 import nft1 from "./public/nft1.png"
-import Form from "./componants/Form";
-import getintouchHeader from "./public/getintouch_head.png"
-import StatusBar from "./componants/StatusBar";
+import BackToTopBtn from "./componants/BackToTopBtn";
 
 export default function Home() {
   return (
@@ -53,10 +51,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center m-5">
-        <Image src={getintouchHeader} width={700} height={100} alt="get in touch header"/>
-      </div>
-      <Form/>
+
+
+      <BackToTopBtn />
 
     </div>
   )

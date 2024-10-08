@@ -13,13 +13,13 @@
 }
 
 .anihero {
-    animation: showup 10s;
+    animation: showup 7s;
 
 }
 
 .anihero2 {
     width: 0px;
-    animation: reveal 3.5s;
+    animation: reveal 2.5s;
 }
 
 .anihero2 div {
@@ -27,7 +27,7 @@
 
     /* font-family: var(--font-abril-fatface); */
     width: 100vw;
-    animation: slidein 5s;
+    animation: slidein 4s;
 }
 
 @keyframes showup {
