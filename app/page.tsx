@@ -1,15 +1,17 @@
+'use client'
 import Image from "next/image";
 import styles from "./page.module.css"
 import RetroButton from "./componants/RetroButton";
 import alua from "./public/alua.png"
 import nft1 from "./public/nft1.png"
 import BackToTopBtn from "./componants/BackToTopBtn";
+import AboutMe from "./componants/AboutMe";
 
 export default function Home() {
+  
   return (
 
     <div>
-
 
       <div className="text-center mt-16 md:mt-8">
         <div className={`${styles.anihero} text-5xl md:text-8xl md:mb-2`}>Web Developer</div>
@@ -50,7 +52,7 @@ export default function Home() {
 
         </div>
       </div>
-
+      <AboutMe/>
 
 
       <BackToTopBtn />

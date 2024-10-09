@@ -100,18 +100,12 @@
 
 
 
-
-
 .carousel {
     margin: 65px auto 0 auto;
     padding-bottom: 5px;
     max-width: 1500px;
     overflow: hidden;
     display: flex;
-
-    &:hover .group {
-        animation-play-state: paused;
-    }
 }
 
 .group {
@@ -122,7 +116,7 @@
     padding-right: 30px;
     will-change: transform;
     /* We should be nice to the browser - let it know what we're going to animate. */
-    animation: scrolling 15s linear infinite;
+    animation: scrolling 20s linear infinite;
 }
 
 @keyframes scrolling {
@@ -155,7 +149,7 @@
 
     &:nth-child(2) {
         background: #7958ff;
-       
+
     }
 
     &:nth-child(3) {
@@ -169,43 +163,31 @@
         /* opacity: 15%; */
         /* #B978EA */
         /* #00AF9B; */
-     
+
     }
 
     &:nth-child(4) {
         background-image: url(./public/group_85.png);
         background-size: cover;
-     
+
     }
 }
 
 
-/* .flashing_text {
-    animation: rainbow-flash-left-to-right 5s infinite;
-  } */
+.details {
+    font-family: var(--font-lexend);
+}
 
 
 
-/* @keyframes rainbow-flash-left-to-right {
-    0% {
-      color: violet;
-      transform: translateX(0);
-    }
-    10% {
-      color: indigo;
-      transform: translateX(10px);
-    }
-    20% {
-      color: blue;
-      transform: translateX(20px);
-    }
-    100% {
-      color: violet;
-      transform: translateX(0);
-    }
-  } */
-  
-  .input {
+
+
+
+
+
+
+
+.input {
     border-radius: 2px;
     border: none;
     margin-top: 1rem;
@@ -213,23 +195,22 @@
     height: 2.5rem;
     padding: 5px;
     color: rgb(0, 0, 0);
-  }
-  
-  .status {
-    animation: fade-in-out 3s ease-in-out;
-  }
-  
-  @keyframes fade-in-out {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  
+}
 
-  
+.status {
+    animation: fade-in-out 3s ease-in-out;
+}
+
+@keyframes fade-in-out {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
