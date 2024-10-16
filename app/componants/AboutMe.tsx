@@ -2,24 +2,26 @@ import aboutMeHeader from "../public/about_me.png"
 import Image from "next/image"
 import RetroButton from "./RetroButton"
 import styles from "../page.module.css"
+import sriwanPhoto from "../public/sriwan_photo.jpg"
+import DetailsBox from "./DetailsBox"
 
 export default function AboutMe() {
     return (
-        <div className="my-10">
-            <div className="text-center">
-                <div><Image src={aboutMeHeader} width={400} alt="aboutMeHeader"></Image></div>
-                <div>profile pic</div>
-            </div>
-            <div className="text-center w-1/2">
-                <div className={`${styles.details} bg-[#FFFFFF]/[.10] drop-shadow-[30px_20px_15px_rgba(0,0,0,1)] mb-8 px-8 md:py-10 py-8 md:py-10 border-solid border-[3.5px] border-[#020202] backdrop-brightness-110 backdrop-blur-xl md:rounded-3xl`}>
-                Hi there! I'm Sriwan, a UI Designer and Front-End Developer originally from Bangkok. I studied visual art at New York Art Studio and later pursued a Web Development degree in Boston. With over 2 years of professional experience, I specialize in creating visually appealing and user-friendly interfaces for digital products, as well as responsive web design and mobile optimization. 
-                </div>
-                <div><a href="#contact">
-                    <RetroButton
-                        text="Get in touch"
-                        color="bg-[#FFA6FF]" />
-                </a></div>
-            </div>
+        <div className="my-24">
+            <div><Image className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto" src={aboutMeHeader} alt="aboutMeHeader"></Image></div>
+            <div><Image className="rounded-full mx-auto my-5 border-2 border-[#020202] drop-shadow-[-7px_-4px_0px_rgba(2,2,2,1)] mb-5" src={sriwanPhoto} width={200} alt="sriwanPhoto"></Image></div>
+          
+
+            <DetailsBox
+                text = "Hi there! I'm Sriwan, a UI Designer and Front-End Developer originally from Bangkok. I studied visual art at New York Art Studio and later pursued a Web Development degree in Boston. With over 2 years of professional experience, I specialize in creating visually appealing and user-friendly interfaces for digital products, as well as responsive web design and mobile optimization."
+                attribute = "w-11/12 md:w-1/2"
+            />
+            <div><a href="#contact">
+                <RetroButton
+                    text="Get in touch"
+                    color="bg-[#FFA6FF]" />
+            </a></div>
+            {/* </div> */}
         </div>
     )
 }
