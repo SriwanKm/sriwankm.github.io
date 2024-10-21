@@ -7,6 +7,7 @@ import nft1 from "./public/nft1.png"
 import BackToTopBtn from "./componants/BackToTopBtn";
 import AboutMe from "./componants/AboutMe";
 import UiDesign from "./componants/UiDesign";
+import GraphicDesign from "./componants/GraphicDesign";
 
 export default function Home() {
 
@@ -55,7 +56,7 @@ export default function Home() {
       </div>
       <AboutMe />
       <UiDesign />
-
+      <GraphicDesign />
       <BackToTopBtn />
 
     </div>
