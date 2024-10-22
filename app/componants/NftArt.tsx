@@ -12,7 +12,7 @@ export default function NftArt() {
                     <Image className="w-full md:w-3/5 lg:w-11/12 mb-7 mx-auto" src={nftHeader} alt="nftHeader"></Image>
                     <DetailsBox
                         text="I’m passionate about digital art and NFT, and I’m all about bringing art and creativity to the world of blockchain. I specialize in crafting unique and collectible digital assets that are truly one-of-a-kind."
-                        attribute="w-full lg:w-full mx-auto"
+                        attribute="w-full md:w-full mx-auto"
                     />
                 </div>
                 <div className="lg:w-2/3">

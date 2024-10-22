@@ -9,6 +9,7 @@ import AboutMe from "./componants/AboutMe";
 import UiDesign from "./componants/UiDesign";
 import GraphicDesign from "./componants/GraphicDesign";
 import NftArt from "./componants/NftArt";
+import LogoTypo from "./componants/LogoTypo";
 
 export default function Home() {
 
@@ -58,9 +59,10 @@ export default function Home() {
       <AboutMe />
       <UiDesign />
       <GraphicDesign />
-      <NftArt/>
+      <LogoTypo />
+      <NftArt />
       <BackToTopBtn />
-    
+
 
     </div>
   )
