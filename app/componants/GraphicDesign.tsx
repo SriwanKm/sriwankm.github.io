@@ -9,7 +9,7 @@ import RetroButton from "../componants/RetroButton";
 
 export default function GraphicDesign() {
     return (
-        <div className="block lg:flex mx-5 md:mx-9 lg:mx-10 ">
+        <div className="block lg:flex mx-5 md:mx-9 lg:mx-10">
             <div className="flex flex-col items-center lg:items-start lg:w-11/12">
                 <Image className="w-full md:w-7/12 lg:w-9/12 mb-4" src={graphicHeader} alt="graphicHeader"></Image>
                 <DetailsBox

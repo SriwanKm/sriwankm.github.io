@@ -14,7 +14,7 @@ export default function AboutMe() {
 
             <DetailsBox
                 text = "Hi there! I'm Sriwan, a UI Designer and Front-End Developer originally from Bangkok. I studied visual art at New York Art Studio and later pursued a Web Development degree in Boston. With over 2 years of professional experience, I specialize in creating visually appealing and user-friendly interfaces for digital products, as well as responsive web design and mobile optimization."
-                attribute = "w-11/12 md:w-1/2 mx-auto"
+                attribute = "w-11/12 lg:w-1/2 mx-auto"
             />
             <div><a href="#contact">
                 <RetroButton

@@ -8,6 +8,7 @@ import BackToTopBtn from "./componants/BackToTopBtn";
 import AboutMe from "./componants/AboutMe";
 import UiDesign from "./componants/UiDesign";
 import GraphicDesign from "./componants/GraphicDesign";
+import NftArt from "./componants/NftArt";
 
 export default function Home() {
 
@@ -57,7 +58,9 @@ export default function Home() {
       <AboutMe />
       <UiDesign />
       <GraphicDesign />
+      <NftArt/>
       <BackToTopBtn />
+    
 
     </div>
   )
