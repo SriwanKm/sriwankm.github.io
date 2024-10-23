@@ -54,8 +54,8 @@ export default function RootLayout({
         </div>
         <nav className="nav flex justify-around absolute pt-2 top-12 left-0 right-0 z-10">
           <a href="#about-me"> <div>About Me</div></a>
-          <a href="#my-works"><div>My Works</div></a>
-          <a href="#resume"><div>Resume</div></a>
+          <a href="#ui-design"><div>My Works</div></a>
+          <a href="https://drive.google.com/file/d/1OsH3sCC-A3sY0Dw0B03JOiHZ2ljYxCpq/view?usp=sharing"><div>Resume</div></a>
           <a href="#contact">
             <RetroButton
               text="Contact"

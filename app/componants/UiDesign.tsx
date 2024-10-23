@@ -8,7 +8,7 @@ import RetroButton from "./RetroButton"
 
 export default function UiDesign() {
     return (
-        <div className="block lg:flex mb-24">
+        <div className="block lg:flex mb-24" id="ui-design">
 
             <div className="w-full lg:w-11/12 flex flex-col justify-evenly">
                 <div className="mb-5"><Image className="w-3/4 md:w-1/2 lg:w-11/12 mx-auto" src={uiHeader} alt="uiHeader"></Image></div>

@@ -15,9 +15,9 @@ export default function Home() {
 
   return (
 
-    <div>
+    <div className="snap-y">
 
-      <div className="text-center mt-16 md:mt-8">
+      <div className="text-center mt-16 md:mt-8 snap-center">
         <div className={`${styles.anihero} text-5xl md:text-8xl mb-2 md:mb-2`}>Web Developer</div>
         <div className={`${styles.anihero2}`}>
           <div className={`text-5xl md:text-8xl`}>& UI Designer</div>
@@ -56,7 +56,7 @@ export default function Home() {
 
         </div>
       </div>
-      <AboutMe />
+      <AboutMe/>
       <UiDesign />
       <GraphicDesign />
       <LogoTypo />
