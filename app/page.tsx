@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className={styles.text_bottom}>
-          <div className="mt-8 bold text-sm md:text-lg">You Describe, I'll make it happen</div>
+          <div className="mt-8 bold text-sm md:text-lg">You Describe, I&apos;ll make it happen</div>
           <div className="mt-16 md:mt-5">
             <a href="#contact">
               <RetroButton

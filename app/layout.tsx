@@ -1,5 +1,4 @@
 'use client'
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Lexend, Abril_Fatface } from 'next/font/google'
 import "./globals.css";

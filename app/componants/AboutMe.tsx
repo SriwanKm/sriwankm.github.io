@@ -1,7 +1,6 @@
 import aboutMeHeader from "../public/about_me.png"
 import Image from "next/image"
 import RetroButton from "./RetroButton"
-import styles from "../page.module.css"
 import sriwanPhoto from "../public/sriwan_photo.jpg"
 import DetailsBox from "./DetailsBox"
 
