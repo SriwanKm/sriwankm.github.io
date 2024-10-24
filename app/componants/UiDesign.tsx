@@ -10,10 +10,10 @@ export default function UiDesign() {
     return (
         <div className="block lg:flex mb-24" id="ui-design">
 
-            <div className="w-full lg:w-11/12 flex flex-col justify-evenly">
-                <div className="mb-5"><Image className="w-3/4 md:w-1/2 lg:w-11/12 mx-auto" src={uiHeader} alt="uiHeader"></Image></div>
+            <div className="w-full lg:w-11/12 flex flex-col justify-start">
+                <div><Image className="w-3/4 md:w-1/2 lg:w-11/12 mx-auto my-7" src={uiHeader} alt="uiHeader"></Image></div>
 
-                <div className="">
+                <div>
                     <DetailsBox
                         text="I specialize in creating beautiful and functional digital experiences that are user-friendly and intuitive using various design tools, such as XD, and Figma, and I am well-versed in creating wireframes, prototypes, and high-fidelity mockups."
                         attribute="w-11/12 lg:w-10/12 mx-auto"

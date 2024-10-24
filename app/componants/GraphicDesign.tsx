@@ -11,7 +11,7 @@ export default function GraphicDesign() {
     return (
         <div className="block lg:flex mx-5 md:mx-9 lg:mx-10">
             <div className="flex flex-col items-center lg:items-start lg:w-11/12">
-                <Image className="w-full md:w-7/12 lg:w-9/12 mb-4" src={graphicHeader} alt="graphicHeader"></Image>
+                <Image className="w-11/12 md:w-7/12 lg:w-9/12 mb-4" src={graphicHeader} alt="graphicHeader"></Image>
                 <DetailsBox
                     text="With a keen eye for detail and a commitment to quality, I work closely with my clients to understand their needs and develop tailored solutions that meet their goals and exceed their expectations. Whether it’s a new menu design, branding or marketing collateral, I am dedicated to delivering exceptional designs that elevate my clients’ businesses"
                     attribute="lg:w-10/12" />
