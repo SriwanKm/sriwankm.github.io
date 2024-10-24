@@ -6,7 +6,7 @@ import DetailsBox from "./DetailsBox"
 
 export default function AboutMe() {
     return (
-        <div className="my-24 snap-center" id="about-me">
+        <div className="my-24" id="about-me">
             <div><Image className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto" src={aboutMeHeader} alt="aboutMeHeader"></Image></div>
             <div><Image className="rounded-full mx-auto my-5 border-2 border-[#020202] drop-shadow-[-7px_-4px_0px_rgba(2,2,2,1)] mb-5" src={sriwanPhoto} width={200} alt="sriwanPhoto"></Image></div>
           

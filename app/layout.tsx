@@ -4,6 +4,7 @@ import { Lexend, Abril_Fatface } from 'next/font/google'
 import "./globals.css";
 import RetroButton from "./componants/RetroButton";
 import { motion } from "framer-motion";
+import RunningName from "./componants/RunningName";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,46 +31,40 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <script src="https://static.form-data.com/js/form-data-tools.v1.min.js"></script>
       </head>
-     
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lexend.variable} ${abril_fatface.variable}`}
       >
 
-        <div className="wrapper">
-          <div className="text-scrolling">
-            <div className="row row-2">
-              <p><span className="text-xl bold md:text-3xl">SRIWAN</span><span className="text-xl md:text-3xl">KHAOMUANG</span></p>
-            </div>
-          </div>
-        </div>
+        <RunningName />
 
 
-        <div className="bg-[#FFFFFF]/[.10] drop-shadow-[30px_20px_15px_rgba(0,0,0,1)] py-8 md:py-10 backdrop-brightness-110 backdrop-blur-xl md:rounded-3xl md:w-11/12 m-auto">
+        <div className="bg-[#FFFFFF]/[.10] drop-shadow-[30px_20px_15px_rgba(0,0,0,0.3)] py-8 md:py-10 backdrop-brightness-110 backdrop-blur-xl md:rounded-3xl md:w-11/12 m-auto">
 
 
         </div>
         <nav className="nav flex justify-around absolute pt-2 top-12 left-0 right-0 z-10">
-          <a href="#about-me"> <div>About Me</div></a>
-          <a href="#ui-design"><div>My Works</div></a>
-          <a href="https://drive.google.com/file/d/1OsH3sCC-A3sY0Dw0B03JOiHZ2ljYxCpq/view?usp=sharing"><div>Resume</div></a>
-          <a href="#contact">
+          <a href="#about-me" className="scroll-smooth"> <div>About Me</div></a>
+          <a className="scroll-smooth" href="#ui-design"><div>My Works</div></a>
+          <a href="https://drive.google.com/file/d/1YRHD3nwLoQnzjDJtedzrB2XPJGDN2AkW/view?usp=sharing"><div>Resume</div></a>
+          <a className="scroll-smooth" href="#contact">
             <RetroButton
               text="Contact"
               color="bg-[#FFA6FF]" />
           </a>
         </nav>
         <motion.div
-      initial={{ y: 20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ ease: "easeInOut", duration: 0.75 }}
-    >
-        {children}
-      </motion.div>
-
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ ease: "easeInOut", duration: 0.75 }}
+        >
+          {children}
+        </motion.div>
+        <RunningName/>
       </body>
     </html>
   );
