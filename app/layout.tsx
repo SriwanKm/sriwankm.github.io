@@ -50,7 +50,7 @@ export default function RootLayout({
         <nav className="nav flex justify-around absolute pt-2 top-12 left-0 right-0 z-10">
           <a href="#about-me" className="scroll-smooth"> <div className="hover:underline">About Me</div></a>
           <a className="scroll-smooth" href="#ui-design"><div className="hover:underline">My Works</div></a>
-          <a target="_blank" href="https://drive.google.com/file/d/1YRHD3nwLoQnzjDJtedzrB2XPJGDN2AkW/view?usp=sharing"><div className="hover:underline">Resume</div></a>
+          <a target="_blank" href="https://drive.google.com/file/d/1RkZvjJB78t_8FEb7MZRP6h5Cf_I-v6ld/view?usp=sharing"><div className="hover:underline">Resume</div></a>
           <a className="scroll-smooth" href="#contact">
             <RetroButton
               text="Contact"
