@@ -7,7 +7,7 @@ import aluaLogo from "../public/alua.png"
 
 export default function LogoTypo() {
     return (
-        <div className="mx-5 md:mx-10 mt-12 md:mt-16">
+        <div id="logoTypo" className="mx-5 md:mx-10 mt-12 md:mt-16">
             
             <Image className="md:w-11/12 lg:w-7/12 mx-auto" src={logoTypoHeader} alt="logoTypographyHeader"></Image>
            

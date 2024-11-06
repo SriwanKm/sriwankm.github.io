@@ -141,7 +141,6 @@
     min-height: 250px;
 
     &:nth-child(1) {
-        /* background: #5d34f2; */
 
         background-image: url(./public/ganja_app.png);
         background-size: cover;
@@ -153,17 +152,8 @@
     }
 
     &:nth-child(3) {
-        /* background: #4300da; */
         background-image: url(./public/ads.png);
         background-size: cover;
-    }
-
-    &:nth-child(5) {
-        background: rgba(104, 104, 104, 0.3);
-        /* opacity: 15%; */
-        /* #B978EA */
-        /* #00AF9B; */
-
     }
 
     &:nth-child(4) {
@@ -171,18 +161,20 @@
         background-size: cover;
 
     }
+
+    &:nth-child(5) {
+        background: rgba(104, 104, 104, 0.3);
+
+
+    }
 }
+
+
 
 
 .details {
     font-family: var(--font-lexend);
 }
-
-
-
-
-
-
 
 
 

@@ -40,20 +40,20 @@ export default function Home() {
       <div className={`${styles.carousel}`}>
         <div className={styles.group}>
           <div className={styles.card}></div>
-          <div className={styles.card}><Image src={alua} width={250} height={100} alt="alua" /></div>
+          <div className={styles.card}><a href="#logoTypo"><Image src={alua} width={250} height={100} alt="alua" /></a></div>
           <div className={styles.card}></div>
           <div className={styles.card}></div>
-          <div className={styles.card}><Image src={nft1} width={325} height={100} alt="nft" /></div>
+          <div className={styles.card}><a href="#nft"><Image src={nft1} width={325} height={100} alt="nft" /></a></div>
 
 
         </div>
         {/* <!-- Add `aria-hidden` to hide the duplicated cards from screen readers. --> */}
         <div aria-hidden className={styles.group}>
           <div className={styles.card}></div>
-          <div className={styles.card}><Image src={alua} width={250} height={100} alt="alua" /></div>
+          <div className={styles.card}><a href="#logoTypo"><Image src={alua} width={250} height={100} alt="alua" /></a></div>
+          <div className={styles.card}><a href="#logoTypo"></a></div>
           <div className={styles.card}></div>
-          <div className={styles.card}></div>
-          <div className={styles.card}><Image src={nft1} width={325} height={100} alt="nft" /></div>
+          <div className={styles.card}><a href="#nft"><Image src={nft1} width={325} height={100} alt="nft" /></a></div>
 
         </div>
       </div>
