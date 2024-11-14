@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import backToTop from "../public/back_to_top.png"
 import Image from 'next/image';
+import styles from '../page.module.css'
 
 
 export default function BackToTopBtn() {
@@ -25,8 +26,8 @@ export default function BackToTopBtn() {
     }, []);
 
     return (
-        <div className="hidden fixed bottom-5 right-5 z-50 cursor-pointer" style={{ display: isImageVisible ? 'block' : 'none' }}>
-            <Image src={backToTop} width={50} alt="backToTop" onClick={scrollToTop}></Image>
+        <div className={`hidden fixed bottom-5 right-5 z-50 cursor-pointer cursor-pointer w-12 md:w-16 ${styles.backToTop}`} style={{ display: isImageVisible ? 'block' : 'none' }}>
+            <Image src={backToTop} alt="backToTop" onClick={scrollToTop}></Image>
         </div>
     );
 }

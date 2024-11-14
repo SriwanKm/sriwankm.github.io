@@ -1,6 +1,9 @@
 .retro_button {
     font-family: var(--font-lexend);
 }
+.retro_button:hover {
+    animation: bounce 0.75s;
+}
 
 .anihero {
     display: inline-block;
@@ -206,3 +209,25 @@
         opacity: 0;
     }
 }
+
+
+@keyframes bounce {
+    0% {
+      transform: scale(1, 1) translateY(0);
+    }
+    30% {
+      transform: scale(1, 0.9) translateY(5px);
+    }
+    75% {
+      transform: scale(1, 1.1) translateY(-10px);
+    }
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
+  }
+
+
+.backToTop:hover  {
+    animation: bounce 0.75s;
+  }
+
