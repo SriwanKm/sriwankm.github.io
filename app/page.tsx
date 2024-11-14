@@ -39,21 +39,21 @@ export default function Home() {
 
       <div className={`${styles.carousel}`}>
         <div className={styles.group}>
-          <div className={styles.card}></div>
-          <div className={styles.card}><a href="#logoTypo"><Image src={alua} width={250} height={100} alt="alua" /></a></div>
-          <div className={styles.card}></div>
-          <div className={styles.card}></div>
-          <div className={styles.card}><a href="#nft"><Image src={nft1} width={325} height={100} alt="nft" /></a></div>
+        <a href="#ui-design"><div className={`${styles.card} ${styles.c1}`}></div></a>
+          <a href="#logoTypo"><div className={`${styles.card} ${styles.c2}`}><Image src={alua} width={250} height={100} alt="alua" /></div></a>
+          <a href="#graphic-design"><div className={`${styles.card} ${styles.c3}`}></div></a>
+          <a href="#ui-design"><div className={`${styles.card} ${styles.c4}`}></div></a>
+          <a href="#nft"><div className={`${styles.card} ${styles.c5}`}><Image src={nft1} width={325} height={100} alt="nft" /></div></a>
 
 
         </div>
         {/* <!-- Add `aria-hidden` to hide the duplicated cards from screen readers. --> */}
         <div aria-hidden className={styles.group}>
-          <div className={styles.card}></div>
-          <div className={styles.card}><a href="#logoTypo"><Image src={alua} width={250} height={100} alt="alua" /></a></div>
-          <div className={styles.card}><a href="#logoTypo"></a></div>
-          <div className={styles.card}></div>
-          <div className={styles.card}><a href="#nft"><Image src={nft1} width={325} height={100} alt="nft" /></a></div>
+        <a href="#ui-design"><div className={`${styles.card} ${styles.c1}`}></div></a>
+          <a href="#logoTypo"><div className={`${styles.card} ${styles.c2}`}><Image src={alua} width={250} height={100} alt="alua" /></div></a>
+          <a href="#graphic-design"><div className={`${styles.card} ${styles.c3}`}></div></a>
+          <a href="#ui-design"><div className={`${styles.card} ${styles.c4}`}></div></a>
+          <a href="#nft"><div className={`${styles.card} ${styles.c5}`}><Image src={nft1} width={325} height={100} alt="nft" /></div></a>
 
         </div>
       </div>

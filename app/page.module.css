@@ -142,35 +142,35 @@
     justify-content: center;
     align-items: center;
     min-height: 250px;
-
-    &:nth-child(1) {
+}
+    .c1 {
 
         background-image: url(./public/ganja_app.png);
         background-size: cover;
     }
 
-    &:nth-child(2) {
+    .c2 {
         background: #7958ff;
 
     }
 
-    &:nth-child(3) {
+   .c3 {
         background-image: url(./public/ads.png);
         background-size: cover;
     }
 
-    &:nth-child(4) {
+    .c4 {
         background-image: url(./public/group_85.png);
         background-size: cover;
 
     }
 
-    &:nth-child(5) {
+    .c5 {
         background: rgba(104, 104, 104, 0.3);
 
 
     }
-}
+
 
 
 
