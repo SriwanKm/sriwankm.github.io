@@ -9,7 +9,7 @@ import pollyApp from "../public/group_85.png"
 
 export default function UiDesign() {
     return (
-        <div className="mb-24" id="ui-design">
+        <div className="mb-24 lg:mt-40" id="ui-design">
             <div><Image className="w-3/4 md:w-1/2 lg:w-4/12 mx-auto my-7" src={uiHeader} alt="uiHeader"></Image></div>
 
             <div className="my-6 lg:mx-10 lg:flex">

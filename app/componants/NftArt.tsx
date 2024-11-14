@@ -6,7 +6,7 @@ import nft from "../public/nft.png"
 
 export default function NftArt() {
     return (
-        <div id="nft" className="my-24 lg:mt-0 mx-5 md:mx-10">
+        <div id="nft" className="my-24 lg:mt-16 mx-5 md:mx-10">
             <div className="block lg:flex lg:justify-around items-center">
                 <div className="lg:w-1/2">
                     <Image className="w-full md:w-3/5 lg:w-11/12 mb-8 mx-auto" src={nftHeader} alt="nftHeader"></Image>
